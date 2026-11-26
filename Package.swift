@@ -56,25 +56,25 @@ let package = Package(
     // The Prebuilt Binary Target
     .binaryTarget(
       name: "CLiteRT",
-      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.0/CLiteRT.xcframework.zip",
-      checksum: "71c4e4643f65a307bc3de6a0dcc82bf97576153b2c2c51e693a1623316392b53"
+      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.1/CLiteRT.xcframework.zip",
+      checksum: "e75ec6718f308ee131186f00bcf40d88e9d95d8926f9d9f52fa6edc9d9f43c68"
     ),
     .binaryTarget(
       name: "CLiteRT_mac",
-      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.0/CLiteRT_mac.xcframework.zip",
-      checksum: "5a5f235fd3ad1477d81a223df50699058773446f46aa06236fdf7ce89f6ecea9"
+      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.1/CLiteRT_mac.xcframework.zip",
+      checksum: "26a209429985671d3ba2804261e38ce7d3ed83354d87de3b33472c10ca71aea2"
     ),
     // Static build of the C API for C and Objective-C consumers (iOS only).
     .binaryTarget(
       name: "CLiteRT_static",
-      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.0/CLiteRT_static.xcframework.zip",
-      checksum: "cbecf31b0ad32e4bd878d00b46a2a44ffc7aaa1170c79427b14765829477e82a"
+      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.1/CLiteRT_static.xcframework.zip",
+      checksum: "7f77f3c42aa45b04e00d0e2148e65442c97f75cb07c6227fd47f4e28a850f847"
     ),
     // Optional GPU Accelerator Plugin Target
     .binaryTarget(
       name: "LiteRtMetalAccelerator",
-      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.0/LiteRtMetalAccelerator.xcframework.zip",
-      checksum: "a0a40727df3b48f33dd30029682e23c11a591e5b8b92cd1e740385387468c975"
+      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.1/LiteRtMetalAccelerator.xcframework.zip",
+      checksum: "eb984375967dac4be077b5d0c008342d8ac987875af71a90d75829738b163ea9"
     ),
     // The Swift Wrapper Target
     .target(
@@ -88,8 +88,8 @@ let package = Package(
     // The Prebuilt TensorFlow Lite C Binary Target
     .binaryTarget(
       name: "TensorFlowLiteC",
-      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.0/TensorFlowLiteC.xcframework.zip",
-      checksum: "945a2b5d5ef9eea51f3d06d9ebe9087db4c31edcd36195de542465db8039db6a"
+      url: "https://github.com/google-ai-edge/LiteRT/releases/download/v2.4.1/TensorFlowLiteC.xcframework.zip",
+      checksum: "1f75af023dd61b29e112df2d0acf1e4c867b84971341849a183d93a9697677eb"
     ),
     // The TensorFlow Lite Swift Wrapper Target
     .target(
